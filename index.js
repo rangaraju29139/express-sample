@@ -1,0 +1,5 @@
+const express = require('express')
+const app=express()
+app.get('/',(req,res)=>res.send('hello world'))
+app.get('/sample',(req,res)=>res.send('<h1>this is the sampele hellp world programme</h1>'))
+app.listen(3000,()=>console.log('example app is listening on port 3000'))
